@@ -1,6 +1,7 @@
 function setup() {
   let mCanvas = createCanvas(windowWidth, windowHeight);
   mCanvas.parent("main");
+  background(200, 0, 0);
 }
 
 function windowResized() {
